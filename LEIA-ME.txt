@@ -1,0 +1,33 @@
+ASCLEPIO IA V6 - NVIDIA
+
+O QUE TEM NESTA VERSÃO:
+- /testar_ia: teste real da API NVIDIA
+- /paciente: cadastro básico do paciente
+- relatório mais organizado
+- detecção de sintomas melhorada
+- projeto organizado em vários arquivos
+
+COMO INSTALAR:
+1. Copie a pasta asclepio_v6_nvidia para onde quiser.
+2. Renomeie .env.example para .env.
+3. Abra o .env e coloque sua chave NVIDIA.
+4. No PowerShell, entre na pasta e rode:
+
+   py -m pip install -r requirements.txt
+   py main.py
+
+COMANDOS:
+- /testar_ia
+- /paciente
+- /ver_paciente
+- /status
+- /historico
+- /detalhes ID
+- /salvar
+- /relatorio
+- /limpar
+- /sair
+
+AVISO:
+O Asclépio não faz diagnóstico médico e não substitui profissional de saúde.
+Em emergência no Brasil, ligue 192.
